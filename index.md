@@ -5,9 +5,9 @@ layout: default
 L'autonomie en vol d'un drone peut dépendre de plusieurs critères comme son poids, sa dimension, la taille des hélices, la capacité de la batterie, le type de moteurs, la consommation des composants électroniques etc. 
 Bref autant de critères qui selon la conception peuvent influer sur l'autonomie de la batterie et par conséquence sur le temps de vol. Je réalise ici quelques tests de configurations d'un drone de type quadcopter entièrement imprimé en 3D afin d'optimiser le temps de vol. 
 Pour cela nous allons faire varier principalement les trois critères suivants : la batterie, les moteurs et les hélices, bien évidemment le poids du drone sera aussi variable selon les choix des conceptions.
-Commençons par analyser les critères physiques et électroniques de notre drone.
+Commençons par analyser les caractéristiques physiques et techniques de notre drone.
 
-# Dimensions et poids :
+# Dimensions et poids du châssis :
 
 ![Front](./local/images/front.png)
 
