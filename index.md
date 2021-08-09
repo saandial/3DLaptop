@@ -9,7 +9,7 @@ Commençons par analyser les critères physiques et électroniques de notre dron
 
 # Dimensions et poids :
 
-![Front](https://github.github.com/saandial/Drone-Tester/local/images/front.png)
+![Front](https://github.com/saandial/Drone-Tester/local/images/front.png)
 
 # Composants électroniques :
 
