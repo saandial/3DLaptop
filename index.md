@@ -36,9 +36,9 @@ Comme spécifié en introduction, pour réaliser ces tests le drone sera configu
     * charge de la LiPo à 100%
     * démarrage du drone en mode ALTITUDE HOLD 
 *   Step 2 : Start scenario
-    * Décollage et maintient de l'altitude à 50% du Throttle
+    * décollage et maintient de l'altitude à 50% du Throttle
 *   Step 3 : End scenario
-    * Attérissage forcé du drone causé par la décharge de la batterie < 30%  (*)
+    * attérissage forcé du drone causé par la décharge de la batterie < 30%  (*)
 
 (*) Il est vivement recommendé de ne pas descendre en dessous de 30% de décharge afin de préservé la longévité de la LiPo, mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un diagnostique sera réalisé à la fin de chaque scénario afin de vérifier l'état de la batterie.
 
@@ -49,6 +49,21 @@ Voici la liste des éléments d'entrée utilisés pour chaque scénario :
 *   Les batteries
 *   Les moteurs
 *   Les hélices
+
+
+| Scnério      | Batterie          | Moteurs x 4       | Hélices x 4       | Poids total (g)   | Temps de vol      |
+|:-------------|:------------------|:------------------|:------------------|:------------------|:------------------| 
+| 1            |                   |                   |                   |                   |                   |
+| 2            |                   |                   |                   |                   |                   |
+| 3            |                   |                   |                   |                   |                   |
+| 4            |                   |                   |                   |                   |                   |
+| 5            |                   |                   |                   |                   |                   |
+| 6            |                   |                   |                   |                   |                   |
+| 7            |                   |                   |                   |                   |                   |
+| 8            |                   |                   |                   |                   |                   |
+| 9            |                   |                   |                   |                   |                   |
+| 10           |                   |                   |                   |                   |                   |
+
 
 type de vol etc. sa dimension Text can be **bold**, _italic_, or ~~strikethrough~~.
 
