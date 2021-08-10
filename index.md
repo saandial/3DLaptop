@@ -53,8 +53,9 @@ Liste des éléments utilisés pour chaque scénario :
     *  Bat 5 (Bat 1 + Bat 3) : 5200 mAh
 
 *   Moteurs : 
-    *  Mot 1 : 2212 920 KV
-    *  Mot 2 : 2212 980 KV
+    *  Mot 1 : 2212 (stator diametre/longeur) 920 KV (rpm/V)
+    *  Mot 2 : 2212 980 KV (rpm/V)
+    *  Mot 3 : 2212 2000 KV (rpm/V)
 
 *   Hélices :
     * Hel 1 : 8045
