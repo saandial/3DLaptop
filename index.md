@@ -28,7 +28,7 @@ Pour réaliser ces tests ce drone sera équipé d'un contrôleur de vol BeagleBo
 
 (*) Le Raspberry Pi Zero W couplé en liaison série à un microcontrôleur Atmega328 mesure l'état actuel de la batterie tout au long du test. Les mesures stocké dans un fichier sont ensuite transmis à la station de contrôle au sol.
 
-
+# Stratégie de test :
 
 
 type de vol etc. sa dimension Text can be **bold**, _italic_, or ~~strikethrough~~.
