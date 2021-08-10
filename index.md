@@ -51,7 +51,7 @@ Voici la liste des éléments d'entrée utilisés pour chaque scénario :
 *   Les hélices
 
 
-| Scnério      | Batterie          | Moteurs x 4       | Hélices x 4       | Poids total (g)   | Temps de vol      |
+| Scénarios    | Batteries         | Moteurs x 4       | Hélices x 4       | Poids total (g)   | Temps de vol      |
 |:-------------|:------------------|:------------------|:------------------|:------------------|:------------------| 
 | 1            |                   |                   |                   |                   |                   |
 | 2            |                   |                   |                   |                   |                   |
