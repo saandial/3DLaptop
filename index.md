@@ -4,17 +4,17 @@ layout: default
 
 L'autonomie en vol d'un drone peut varier en fonction de plusieurs critères comme son poids, sa taille, les hélices, la batterie, les rmoteurs, la consommation des composants électroniques etc. 
 
-Bref autant de critères qui selon la conception peuvent influer sur l'autonomie de la batterie et par conséquence sur le temps de vol. Je réalise ici quelques tests de configurations d'un drone de type quadcopter entièrement imprimé en 3D afin d'optimiser le temps de vol. 
+Bref autant de critères qui selon la conception peuvent influer sur l'autonomie de la batterie et par conséquence sur le temps de vol. Je réalise ici quelques tests de configurations d'un drone de type quadcopter entièrement imprimé en 3D afin de calculer le temps de vol. 
 
 Pour cela nous allons faire varier principalement les trois critères suivants : la batterie, les moteurs et les hélices, bien évidemment le poids du drone sera aussi variable selon les choix des conceptions. Commençons par analyser les caractéristiques physiques et techniques du drone.
 
-# Dimensions et poids du châssis à vide :
+## Dimensions et poids du châssis à vide :
 
 ![Front](./local/images/front.png)
 
-# Caractéristiques techniques :
+## Caractéristiques techniques :
 
-Pour réaliser ces tests ce drone sera équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue est un mini ordinateur monocarte Open Source sous Linux spécialement conçu pour des applications embarquées. Il est équipé des systèmes de communication sans fil standard Wi-Fi et Bluetooth 4.0 ainsi que des connecteurs dédiés pour d'autres interfaces telles que UART, SPI, radio DSM2, et GPS. Il embarque également une unité de mesure inertielle indispensable pour l'orientation d'un drone comportant un accéléromètre, un gyroscope et une boussole. Voici la liste des composants électroniques embarqués dans le drone :
+Ce drone est équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue est un mini ordinateur monocarte Open Source sous Linux spécialement conçu pour des applications embarquées. Il est équipé des systèmes de communication sans fil standard Wi-Fi et Bluetooth 4.0 ainsi que des connecteurs dédiés pour d'autres interfaces telles que UART, SPI, radio DSM2, et GPS. Il embarque également une unité de mesure inertielle indispensable pour l'orientation d'un drone comportant un accéléromètre, un gyroscope et une boussole. Voici la liste des composants électroniques embarqués dans le drone :
 
 *   Contrôleur de vol
 *   Moteur Brushless x 4
@@ -28,8 +28,19 @@ Pour réaliser ces tests ce drone sera équipé d'un contrôleur de vol BeagleBo
 
 (*) Le Raspberry Pi Zero W couplé en liaison série à un microcontrôleur Atmega328 mesure l'état actuel de la batterie tout au long du test. Les mesures stocké dans un fichier sont ensuite transmis à la station de contrôle au sol.
 
-# Stratégie de test :
+## Stratégie des tests :
 
+Comme spécifié en introduction, pour réaliser ces tests le drone sera configuré en faisant varier la batterie, les moteurs et les hélices. Chacune de ces configurations sera représenté par un scénario décrit à travers les conditions de la séquence suivante en trois steps :
+
+*   Step 1 : Init scenario
+    * Charge batterie à 100%
+    * Démarage en mode ALTITUDE HOLD 
+*   Step 2 : Start scenario
+    * Décollage et maintient de l'altitude à 50% du Throttle
+*   Step 3 : End scenario
+    * Attérissage forcé du drone : décharge de la batterie < 30%  (*)
+
+(*) Il est vivement recommendé de ne pas descendre en dessous de 30% de décharge afin de préservé la longévité de la LiPo, mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un dignosctique sera prévu à la fin de chaque scénario pour vérifier l'état de la LiPo.
 
 type de vol etc. sa dimension Text can be **bold**, _italic_, or ~~strikethrough~~.
 
