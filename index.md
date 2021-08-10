@@ -33,14 +33,22 @@ Ce drone est équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue e
 Comme spécifié en introduction, pour réaliser ces tests le drone sera configuré en faisant varier la batterie, les moteurs et les hélices. Chacune de ces configurations sera représenté par un scénario décrit à travers les conditions de la séquence suivante en trois steps :
 
 *   Step 1 : Init scenario
-    * Charge batterie à 100%
-    * Démarage en mode ALTITUDE HOLD 
+    * charge de la LiPo à 100%
+    * démarrage du drone en mode ALTITUDE HOLD 
 *   Step 2 : Start scenario
     * Décollage et maintient de l'altitude à 50% du Throttle
 *   Step 3 : End scenario
-    * Attérissage forcé du drone : décharge de la batterie < 30%  (*)
+    * Attérissage forcé du drone causé par la décharge de la batterie < 30%  (*)
 
-(*) Il est vivement recommendé de ne pas descendre en dessous de 30% de décharge afin de préservé la longévité de la LiPo, mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un dignosctique sera prévu à la fin de chaque scénario pour vérifier l'état de la LiPo.
+(*) Il est vivement recommendé de ne pas descendre en dessous de 30% de décharge afin de préservé la longévité de la LiPo, mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un diagnostique sera réalisé à la fin de chaque scénario afin de vérifier l'état de la batterie.
+
+## Description des scénarios :
+
+Voici la liste des éléments d'entrée utilisés pour chaque scénario :
+
+*   Les batteries
+*   Les moteurs
+*   Les hélices
 
 type de vol etc. sa dimension Text can be **bold**, _italic_, or ~~strikethrough~~.
 
