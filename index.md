@@ -43,19 +43,25 @@ Comme spécifié en introduction, la réalisation de ces tests en vol est défin
 
 ## Description des scénarios :
 
-Voici la liste des éléments d'entrée utilisés pour chaque scénario :
+Liste des éléments utilisés pour chaque scénario :
 
-*   Les batteries
-*   Les moteurs
-*   Les hélices
+*   Batteries 11.1 V :
+    *  Bat 1 : 2200 mAh 35C
+    *  Bat 2 : 2200 mAh 50C
+    *  Bat 3 : 3000 mAh
+    *  Bat 1 + Bat 2 : 4400 mAh
+*   Moteurs : 
+    *  Mot 1 : 2212 920 KV
+*   Hélices :
+    * Hel 1 : DJI Nylon 9443
 
 
 | Scénarios    | Batteries  11.1V  | Moteurs x 4       | Hélices x 4       | Poids total (g)   | Step 1 % LiPo     | Step 3 % LiPo     | Temps de vol      |
 |:-------------|:------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:------------------| 
-| 1            |                   |                   |                   |                   |        99%        |                   |                   |
-| 2            |                   |                   |                   |                   |        99%        |                   |                   |
-| 3            |                   |                   |                   |                   |        99%        |                   |                   |
-| 4            |                   |                   |                   |                   |        99%        |                   |                   |
+| 1            | Bat 1             | Mot 1             | Hel 1             |                   |        99%        |                   |                   |
+| 2            | Bat 2             | Mot 1             | Hel 1             |                   |        99%        |                   |                   |
+| 3            | Bat 3             | Mot 1             | Hel 1             |                   |        99%        |                   |                   |
+| 4            | Bat 1 + Bat 2     |                   |                   |                   |        99%        |                   |                   |
 | 5            |                   |                   |                   |                   |        99%        |                   |                   |
 | 6            |                   |                   |                   |                   |        99%        |                   |                   |
 | 7            |                   |                   |                   |                   |        99%        |                   |                   |
