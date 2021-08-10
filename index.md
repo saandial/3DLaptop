@@ -28,19 +28,18 @@ Ce drone est équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue e
 
 (*) Le Raspberry Pi Zero W couplé en liaison série à un microcontrôleur Atmega328 mesure l'état actuel de la batterie tout au long du test. Les mesures stocké dans un fichier sont ensuite transmis à la station de contrôle au sol.
 
-## Stratégie des tests :
+## Stratégie de tests :
 
-Comme spécifié en introduction, pour réaliser ces tests le drone sera configuré en faisant varier la batterie, les moteurs et les hélices. Chacune de ces configurations sera représenté par un scénario décrit à travers les conditions de la séquence suivante en trois steps :
+Comme spécifié en introduction, la réalisation de ces tests en vol est définit par le type de batterie, les moteurs et les hélices. Chaque test représente un scénario décrit en trois steps de la manière suivante :
 
-*   Step 1 : Init scenario
-    * charge de la LiPo à 100%
+*   Step 1 : Init scenario (LiPo à 100%)
     * démarrage du drone en mode ALTITUDE HOLD 
 *   Step 2 : Start scenario
     * décollage et maintient de l'altitude à 50% du Throttle
-*   Step 3 : End scenario
-    * attérissage forcé du drone causé par la décharge de la batterie < 30%  (*)
+*   Step 3 : End scenario (LiPo < 30%)
+    * attérissage forcé du drone causé par la décharge de la batterie < 30% (*)
 
-(*) Il est vivement recommendé de ne pas descendre en dessous de 30% de décharge afin de préservé la longévité de la LiPo, mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un diagnostique sera réalisé à la fin de chaque scénario afin de vérifier l'état de la batterie.
+(*) Afin de préserver la longévité d'une batterie LiPo il est vivement recommendé de ne pas descendre en dessous de 30% de décharge. Mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un diagnostique sera réalisé à la fin de chaque scénario afin de vérifier l'état de la LiPo.
 
 ## Description des scénarios :
 
