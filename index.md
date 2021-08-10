@@ -49,25 +49,31 @@ Liste des éléments utilisés pour chaque scénario :
     *  Bat 1 : 2200 mAh 35C
     *  Bat 2 : 2200 mAh 50C
     *  Bat 3 : 3000 mAh
-    *  Bat 1 + Bat 2 : 4400 mAh
+    *  Bat 4 (Bat 1 + Bat 2) : 4400 mAh
+    *  Bat 5 (Bat 1 + Bat 3) : 5200 mAh
+
 *   Moteurs : 
     *  Mot 1 : 2212 920 KV
+    *  Mot 2 : 2212 980 KV
+
 *   Hélices :
-    * Hel 1 : DJI Nylon 9443
+    * Hel 1 : 9443
+    * hel 2 : 8045
+    * Hel 3 : 1045
 
 
-| Scénarios    | Batteries  11.1V  | Moteurs x 4       | Hélices x 4       | Poids total (g)   | Step 1 % LiPo     | Step 3 % LiPo     | Temps de vol      |
-|:-------------|:------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:------------------| 
-| 1            | Bat 1             | Mot 1             | Hel 1             |                   |        99%        |                   |                   |
-| 2            | Bat 2             | Mot 1             | Hel 1             |                   |        99%        |                   |                   |
-| 3            | Bat 3             | Mot 1             | Hel 1             |                   |        99%        |                   |                   |
-| 4            | Bat 1 + Bat 2     |                   |                   |                   |        99%        |                   |                   |
-| 5            |                   |                   |                   |                   |        99%        |                   |                   |
-| 6            |                   |                   |                   |                   |        99%        |                   |                   |
-| 7            |                   |                   |                   |                   |        99%        |                   |                   |
-| 8            |                   |                   |                   |                   |        99%        |                   |                   |
-| 9            |                   |                   |                   |                   |        99%        |                   |                   |
-| 10           |                   |                   |                   |                   |        99%        |                   |                   |
+| Scénarios | Batteries | Moteurs   | Hélices   | Poids total (g) | Step 1 % LiPo | Step 3 % LiPo     | Temps de vol      |
+|:----------|:----------|:----------|:----------|:----------------|:--------------|:------------------|:------------------| 
+| 1         | Bat 1     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 2         | Bat 2     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 3         | Bat 3     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 4         | Bat 4     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 5         | Bat 5     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 6         | Bat 1     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 7         | Bat 2     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 8         | Bat 3     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 9         | Bat 4     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 10        | Bat 5     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
 
 
 type de vol etc. sa dimension Text can be **bold**, _italic_, or ~~strikethrough~~.
