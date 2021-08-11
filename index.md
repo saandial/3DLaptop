@@ -33,11 +33,11 @@ Ce drone est équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue e
 Comme spécifié en introduction, la réalisation de ces tests en vol est définit par le type de batterie, les moteurs et les hélices. Chaque test représente un scénario décrit en trois steps de la manière suivante :
 
 *   Step 1 : Init scenario (LiPo à 100%)
-    * démarrage du drone en mode ALTITUDE HOLD 
+    * démarrage en mode ALTITUDE HOLD 
 *   Step 2 : Start scenario
     * décollage et maintient de l'altitude à 50% du Throttle
-*   Step 3 : End scenario (LiPo < 30%)
-    * attérissage forcé du drone causé par la décharge de la batterie < 30% (*)
+*   Step 3 : End scenario (LiPo < 20%)
+    * attérissage forcé du drone causé par la décharge de la batterie < 20% (*)
 
 (*) Afin de préserver la longévité d'une batterie LiPo il est vivement recommendé de ne pas descendre en dessous de 30% de décharge. Mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un diagnostique sera réalisé à la fin de chaque scénario afin de vérifier l'état de la LiPo.
 
@@ -48,19 +48,18 @@ Liste des éléments utilisés pour chaque scénario :
 *   Batteries 11.1 V :
     *  Bat 1 : 2200 mAh 35C
     *  Bat 2 : 2200 mAh 50C
-    *  Bat 3 : 3000 mAh
-    *  Bat 4 (Bat 1 + Bat 2) : 4400 mAh
-    *  Bat 5 (Bat 1 + Bat 3) : 5200 mAh
+    *  Bat 3 (Bat 1 + Bat 2) : 4400 mAh
 
 *   Moteurs : 
-    *  Mot 1 : 2212 (stator diametre/longeur) 920 KV (rpm/V)
-    *  Mot 2 : 2212 980 KV (rpm/V)
-    *  Mot 3 : 2212 2000 KV (rpm/V)
+    *  Mot 1 : 2212 920 KV (22 mm diametre stator | 12 mm longeur stator | 920 rpm/V)
+    *  Mot 2 : 2212 980 KV
+    *  Mot 3 : 2212 2000 KV
 
 *   Hélices :
-    * Hel 1 : 8045
-    * hel 2 : 9443
-    * Hel 3 : 1045
+    * Hel 1 : 9443 (9.4 inches longeur | 4.3 inches pitch)
+    * Hel 2 : 1038
+    * Hel 3 : 1050
+    * Hel 4 : 1145
 
 
 | Scénarios | Batteries | Moteurs   | Hélices   | Poids total (g) | % LiPo Step & | % LiPo Step 3     | Temps de vol      |
@@ -68,30 +67,47 @@ Liste des éléments utilisés pour chaque scénario :
 | 1         | Bat 1     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
 | 2         | Bat 1     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
 | 3         | Bat 1     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
-| 4         | Bat 1     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
-| 5         | Bat 1     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
-| 6         | Bat 1     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
-| 7         | Bat 1     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
-| 8         | Bat 1     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
-| 9         | Bat 1     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
-| 10        | Bat 2     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
-| 11        | Bat 2     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
-| 12        | Bat 2     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
-| 13        | Bat 2     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
-| 14        | Bat 2     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
-| 15        | Bat 2     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
-| 16        | Bat 2     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
-| 17        | Bat 2     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
-| 18        | Bat 2     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
-| 19        | Bat 3     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
-| 20        | Bat 3     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
-| 21        | Bat 3     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
-| 22        | Bat 3     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
-| 23        | Bat 3     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
-| 24        | Bat 3     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
-| 25        | Bat 3     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
-| 26        | Bat 3     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
-| 27        | Bat 3     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
+| 4         | Bat 1     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
+
+| 5         | Bat 1     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 6         | Bat 1     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
+| 7         | Bat 1     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
+| 8         | Bat 1     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
+
+| 9         | Bat 1     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
+| 10        | Bat 1     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
+| 11        | Bat 1     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
+| 12        | Bat 1     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
+
+| 13        | Bat 2     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 14        | Bat 2     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
+| 15        | Bat 2     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
+| 16        | Bat 2     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
+
+| 17        | Bat 2     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 18        | Bat 2     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
+| 19        | Bat 2     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
+| 20        | Bat 2     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
+
+| 21        | Bat 2     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
+| 22        | Bat 2     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
+| 23        | Bat 2     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
+| 24        | Bat 2     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
+
+| 25        | Bat 3     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 26        | Bat 3     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
+| 27        | Bat 3     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
+| 28        | Bat 3     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
+
+| 29        | Bat 3     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
+| 30        | Bat 3     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
+| 31        | Bat 3     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
+| 32        | Bat 3     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
+
+| 33        | Bat 3     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
+| 34        | Bat 3     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
+| 35        | Bat 3     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
+| 36        | Bat 3     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
 
 
 
