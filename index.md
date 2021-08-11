@@ -74,7 +74,7 @@ Liste des éléments utilisés pour chaque scénario :
 
 | Scénarios | Batteries | Moteurs   | Hélices   | Poids total     | % LiPo Step 1 | % LiPo Step 3     | Temps de vol      |
 |:----------|:----------|:----------|:----------|:----------------|:--------------|:------------------|:------------------| 
-| 1         | Bat 1     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
+| 1         | Bat 1     | Mot 1     | Hel 1     |        -        |      99%      |         -         |         -         |
 | 2         | Bat 1     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
 | 3         | Bat 1     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
 | 4         | Bat 1     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
