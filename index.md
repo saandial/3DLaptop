@@ -39,7 +39,9 @@ Comme spécifié en introduction, la réalisation de ces tests en vol est défin
 *   Step 3 : End scenario (LiPo < 20%)
     * attérissage forcé du drone causé par la décharge de la batterie < 20% (*)
 
+```
 (*) Afin de préserver la longévité d'une batterie LiPo il est vivement recommendé de ne pas descendre en dessous de 30% de décharge. Mais pour réaliser nos tests nous allons prendre le risque de descendre sous la barre des 30% de décharge jusqu'a l'attérissage forcé du drone. Un diagnostique sera réalisé à la fin de chaque scénario afin de vérifier l'état de la LiPo.
+```
 
 ## Description des scénarios :
 
