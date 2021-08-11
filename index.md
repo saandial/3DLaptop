@@ -68,42 +68,34 @@ Liste des éléments utilisés pour chaque scénario :
 | 2         | Bat 1     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
 | 3         | Bat 1     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
 | 4         | Bat 1     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
-
 | 5         | Bat 1     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
 | 6         | Bat 1     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
 | 7         | Bat 1     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
 | 8         | Bat 1     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
-
 | 9         | Bat 1     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
 | 10        | Bat 1     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
 | 11        | Bat 1     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
 | 12        | Bat 1     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
-
 | 13        | Bat 2     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
 | 14        | Bat 2     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
 | 15        | Bat 2     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
 | 16        | Bat 2     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
-
 | 17        | Bat 2     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
 | 18        | Bat 2     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
 | 19        | Bat 2     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
 | 20        | Bat 2     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
-
 | 21        | Bat 2     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
 | 22        | Bat 2     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
 | 23        | Bat 2     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
 | 24        | Bat 2     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
-
 | 25        | Bat 3     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
 | 26        | Bat 3     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
 | 27        | Bat 3     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
 | 28        | Bat 3     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
-
 | 29        | Bat 3     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
 | 30        | Bat 3     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
 | 31        | Bat 3     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
 | 32        | Bat 3     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
-
 | 33        | Bat 3     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
 | 34        | Bat 3     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
 | 35        | Bat 3     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
