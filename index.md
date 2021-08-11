@@ -62,7 +62,7 @@ Liste des éléments utilisés pour chaque scénario :
     * Hel 4 : 1145
 
 
-| Scénarios | Batteries | Moteurs   | Hélices   | Poids total (g) | % LiPo Step & | % LiPo Step 3     | Temps de vol      |
+| Scénarios | Batteries | Moteurs   | Hélices   | Poids total (g) | % LiPo Step 1 | % LiPo Step 3     | Temps de vol      |
 |:----------|:----------|:----------|:----------|:----------------|:--------------|:------------------|:------------------| 
 | 1         | Bat 1     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
 | 2         | Bat 1     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
