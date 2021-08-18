@@ -32,9 +32,8 @@ l'état actuel de la batterie tout au long du test. Les mesures stocké dans un 
 sont ensuite transmis à la station de contrôle au sol.
 ```
 
-<img src="./local/images/controler.png" alt="controler" width="900"/>
+<img src="./local/images/controler.png" alt="controler" width="1000"/>
 
-*Contrôleur de vol BeagleBone Blue, avec  Raspberry Pi Zero W et Arduino Pro Micro*
 
 ## Stratégie de tests :
 
