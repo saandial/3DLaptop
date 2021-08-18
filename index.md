@@ -31,7 +31,9 @@ Ce drone est équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue e
 l'état actuel de la batterie tout au long du test. Les mesures stocké dans un fichier 
 sont ensuite transmis à la station de contrôle au sol.
 ```
-![Controler](./local/images/controler.png)
+
+<img src="./local/images/controler.png" alt="controler" width="200"/>
+*image_caption*
 
 ## Stratégie de tests :
 
