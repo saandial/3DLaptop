@@ -70,41 +70,41 @@ Liste des éléments utilisés pour chaque scénario :
     * Hel 3 : 1050
     * Hel 4 : 1145
 
-| Scénarios | Batteries | Moteurs   | Hélices   | Poids       | % LiPo Step   | Temps de     |
-|:----------|:----------|:----------|:----------|:------------|:--------------|:-------------| 
-| 1         | Bat 1     | Mot 1     | Hel 1     |             |               |              |
-| 2         | Bat 1     | Mot 1     | Hel 2     |             |               |              |
-| 3         | Bat 1     | Mot 1     | Hel 3     |             |               |              |
-| 4         | Bat 1     | Mot 1     | Hel 4     |             |               |              |
-| 5         | Bat 1     | Mot 2     | Hel 1     |             |               |              |
-| 6         | Bat 1     | Mot 2     | Hel 2     |             |               |              |
-| 7         | Bat 1     | Mot 2     | Hel 3     |             |               |              |
-| 8         | Bat 1     | Mot 2     | Hel 4     |             |               |              |
-| 9         | Bat 1     | Mot 3     | Hel 1     |             |               |              |
-| 10        | Bat 1     | Mot 3     | Hel 2     |             |               |              |
-| 11        | Bat 1     | Mot 3     | Hel 3     |             |               |              |
-| 12        | Bat 1     | Mot 3     | Hel 4     |             |               |              |
-| 13        | Bat 2     | Mot 1     | Hel 1     |             |               |              |
-| 14        | Bat 2     | Mot 1     | Hel 2     |             |               |              |
-| 15        | Bat 2     | Mot 1     | Hel 3     |             |               |              |
-| 16        | Bat 2     | Mot 1     | Hel 4     |             |               |              |
-| 17        | Bat 2     | Mot 2     | Hel 1     |             |               |              |
-| 18        | Bat 2     | Mot 2     | Hel 2     |             |               |              |
-| 19        | Bat 2     | Mot 2     | Hel 3     |             |               |              |
-| 20        | Bat 2     | Mot 2     | Hel 4     |             |               |              |
-| 21        | Bat 2     | Mot 3     | Hel 1     |             |               |              |
-| 22        | Bat 2     | Mot 3     | Hel 2     |             |               |              |
-| 23        | Bat 2     | Mot 3     | Hel 3     |             |               |              |
-| 24        | Bat 2     | Mot 3     | Hel 4     |             |               |              |
-| 25        | Bat 3     | Mot 1     | Hel 1     |             |               |              |
-| 26        | Bat 3     | Mot 1     | Hel 2     |             |               |              |
-| 27        | Bat 3     | Mot 1     | Hel 3     |             |               |              |
-| 28        | Bat 3     | Mot 1     | Hel 4     |             |               |              |
-| 29        | Bat 3     | Mot 2     | Hel 1     |             |               |              |
-| 30        | Bat 3     | Mot 2     | Hel 2     |             |               |              |
-| 31        | Bat 3     | Mot 2     | Hel 3     |             |               |              |
-| 32        | Bat 3     | Mot 2     | Hel 4     |             |               |              |
-| 33        | Bat 3     | Mot 3     | Hel 1     |             |               |              |
-| 34        | Bat 3     | Mot 3     | Hel 2     |             |               |              |
-| 35        | Bat 3     | Mot 3     | Hel 3     |             |               |              |
-| 36        | Bat 3     | Mot 3     | Hel 4     |             |               |              |
+| Scénarios | Batteries | Moteurs   | Hélices   | Poids total | Temps de vol  |
+|:----------|:----------|:----------|:----------|:------------|:--------------|
+| 1         | Bat 1     | Mot 1     | Hel 1     |             |               |             
+| 2         | Bat 1     | Mot 1     | Hel 2     |             |               |              
+| 3         | Bat 1     | Mot 1     | Hel 3     |             |               |              
+| 4         | Bat 1     | Mot 1     | Hel 4     |             |               | 
+| 5         | Bat 1     | Mot 2     | Hel 1     |             |               |              
+| 6         | Bat 1     | Mot 2     | Hel 2     |             |               |              
+| 7         | Bat 1     | Mot 2     | Hel 3     |             |               |              
+| 8         | Bat 1     | Mot 2     | Hel 4     |             |               |              
+| 9         | Bat 1     | Mot 3     | Hel 1     |             |               |              
+| 10        | Bat 1     | Mot 3     | Hel 2     |             |               |              
+| 11        | Bat 1     | Mot 3     | Hel 3     |             |               |              
+| 12        | Bat 1     | Mot 3     | Hel 4     |             |               |              
+| 13        | Bat 2     | Mot 1     | Hel 1     |             |               |              
+| 14        | Bat 2     | Mot 1     | Hel 2     |             |               |              
+| 15        | Bat 2     | Mot 1     | Hel 3     |             |               |              
+| 16        | Bat 2     | Mot 1     | Hel 4     |             |               |              
+| 17        | Bat 2     | Mot 2     | Hel 1     |             |               |              
+| 18        | Bat 2     | Mot 2     | Hel 2     |             |               |             
+| 19        | Bat 2     | Mot 2     | Hel 3     |             |               |              
+| 20        | Bat 2     | Mot 2     | Hel 4     |             |               |              
+| 21        | Bat 2     | Mot 3     | Hel 1     |             |               |              
+| 22        | Bat 2     | Mot 3     | Hel 2     |             |               |              
+| 23        | Bat 2     | Mot 3     | Hel 3     |             |               |              
+| 24        | Bat 2     | Mot 3     | Hel 4     |             |               |              
+| 25        | Bat 3     | Mot 1     | Hel 1     |             |               |              
+| 26        | Bat 3     | Mot 1     | Hel 2     |             |               |              
+| 27        | Bat 3     | Mot 1     | Hel 3     |             |               |              
+| 28        | Bat 3     | Mot 1     | Hel 4     |             |               |              
+| 29        | Bat 3     | Mot 2     | Hel 1     |             |               |              
+| 30        | Bat 3     | Mot 2     | Hel 2     |             |               |              
+| 31        | Bat 3     | Mot 2     | Hel 3     |             |               |              
+| 32        | Bat 3     | Mot 2     | Hel 4     |             |               |              
+| 33        | Bat 3     | Mot 3     | Hel 1     |             |               |             
+| 34        | Bat 3     | Mot 3     | Hel 2     |             |               |             
+| 35        | Bat 3     | Mot 3     | Hel 3     |             |               |             
+| 36        | Bat 3     | Mot 3     | Hel 4     |             |               |            
