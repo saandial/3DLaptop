@@ -71,163 +71,41 @@ Liste des éléments utilisés pour chaque scénario :
     * Hel 3 : 1050
     * Hel 4 : 1145
 
-| Scénarios | Batteries | Moteurs   | Hélices   | Poids total     | % LiPo Step 1 | % LiPo Step 3     | Temps de vol      |
-|:----------|:----------|:----------|:----------|:----------------|:--------------|:------------------|:------------------| 
-| 1         | Bat 1     | Mot 1     | Hel 1     |        -        |      99%      |         -         |         -         |
-| 2         | Bat 1     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
-| 3         | Bat 1     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
-| 4         | Bat 1     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
-| 5         | Bat 1     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
-| 6         | Bat 1     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
-| 7         | Bat 1     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
-| 8         | Bat 1     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
-| 9         | Bat 1     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
-| 10        | Bat 1     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
-| 11        | Bat 1     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
-| 12        | Bat 1     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
-| 13        | Bat 2     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
-| 14        | Bat 2     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
-| 15        | Bat 2     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
-| 16        | Bat 2     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
-| 17        | Bat 2     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
-| 18        | Bat 2     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
-| 19        | Bat 2     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
-| 20        | Bat 2     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
-| 21        | Bat 2     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
-| 22        | Bat 2     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
-| 23        | Bat 2     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
-| 24        | Bat 2     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
-| 25        | Bat 3     | Mot 1     | Hel 1     |                 |      99%      |                   |                   |
-| 26        | Bat 3     | Mot 1     | Hel 2     |                 |      99%      |                   |                   |
-| 27        | Bat 3     | Mot 1     | Hel 3     |                 |      99%      |                   |                   |
-| 28        | Bat 3     | Mot 1     | Hel 4     |                 |      99%      |                   |                   |
-| 29        | Bat 3     | Mot 2     | Hel 1     |                 |      99%      |                   |                   |
-| 30        | Bat 3     | Mot 2     | Hel 2     |                 |      99%      |                   |                   |
-| 31        | Bat 3     | Mot 2     | Hel 3     |                 |      99%      |                   |                   |
-| 32        | Bat 3     | Mot 2     | Hel 4     |                 |      99%      |                   |                   |
-| 33        | Bat 3     | Mot 3     | Hel 1     |                 |      99%      |                   |                   |
-| 34        | Bat 3     | Mot 3     | Hel 2     |                 |      99%      |                   |                   |
-| 35        | Bat 3     | Mot 3     | Hel 3     |                 |      99%      |                   |                   |
-| 36        | Bat 3     | Mot 3     | Hel 4     |                 |      99%      |                   |                   |
-
-
-
-type de vol etc. sa dimension Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+| Scénarios | Batteries | Moteurs   | Hélices   | Poids total     | % LiPo Step 3     | Temps de vol      |
+|:----------|:----------|:----------|:----------|:----------------|:------------------||:-----------------| 
+| 1         | Bat 1     | Mot 1     | Hel 1     |        -        |         -         |         -         |
+| 2         | Bat 1     | Mot 1     | Hel 2     |                 |                   |                   |
+| 3         | Bat 1     | Mot 1     | Hel 3     |                 |                   |                   |
+| 4         | Bat 1     | Mot 1     | Hel 4     |                 |                   |                   |
+| 5         | Bat 1     | Mot 2     | Hel 1     |                 |                   |                   |
+| 6         | Bat 1     | Mot 2     | Hel 2     |                 |                   |                   |
+| 7         | Bat 1     | Mot 2     | Hel 3     |                 |                   |                   |
+| 8         | Bat 1     | Mot 2     | Hel 4     |                 |                   |                   |
+| 9         | Bat 1     | Mot 3     | Hel 1     |                 |                   |                   |
+| 10        | Bat 1     | Mot 3     | Hel 2     |                 |                   |                   |
+| 11        | Bat 1     | Mot 3     | Hel 3     |                 |                   |                   |
+| 12        | Bat 1     | Mot 3     | Hel 4     |                 |                   |                   |
+| 13        | Bat 2     | Mot 1     | Hel 1     |                 |                   |                   |
+| 14        | Bat 2     | Mot 1     | Hel 2     |                 |                   |                   |
+| 15        | Bat 2     | Mot 1     | Hel 3     |                 |                   |                   |
+| 16        | Bat 2     | Mot 1     | Hel 4     |                 |                   |                   |
+| 17        | Bat 2     | Mot 2     | Hel 1     |                 |                   |                   |
+| 18        | Bat 2     | Mot 2     | Hel 2     |                 |                   |                   |
+| 19        | Bat 2     | Mot 2     | Hel 3     |                 |                   |                   |
+| 20        | Bat 2     | Mot 2     | Hel 4     |                 |                   |                   |
+| 21        | Bat 2     | Mot 3     | Hel 1     |                 |                   |                   |
+| 22        | Bat 2     | Mot 3     | Hel 2     |                 |                   |                   |
+| 23        | Bat 2     | Mot 3     | Hel 3     |                 |                   |                   |
+| 24        | Bat 2     | Mot 3     | Hel 4     |                 |                   |                   |
+| 25        | Bat 3     | Mot 1     | Hel 1     |                 |                   |                   |
+| 26        | Bat 3     | Mot 1     | Hel 2     |                 |                   |                   |
+| 27        | Bat 3     | Mot 1     | Hel 3     |                 |                   |                   |
+| 28        | Bat 3     | Mot 1     | Hel 4     |                 |                   |                   |
+| 29        | Bat 3     | Mot 2     | Hel 1     |                 |                   |                   |
+| 30        | Bat 3     | Mot 2     | Hel 2     |                 |                   |                   |
+| 31        | Bat 3     | Mot 2     | Hel 3     |                 |                   |                   |
+| 32        | Bat 3     | Mot 2     | Hel 4     |                 |                   |                   |
+| 33        | Bat 3     | Mot 3     | Hel 1     |                 |                   |                   |
+| 34        | Bat 3     | Mot 3     | Hel 2     |                 |                   |                   |
+| 35        | Bat 3     | Mot 3     | Hel 3     |                 |                   |                   |
+| 36        | Bat 3     | Mot 3     | Hel 4     |                 |                   |                   |
