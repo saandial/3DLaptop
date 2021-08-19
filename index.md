@@ -8,10 +8,6 @@ Bref autant de critères qui selon la conception peuvent influer sur l'autonomie
 
 Pour cela nous allons faire varier principalement les trois critères suivants : la batterie, les moteurs et les hélices, bien évidemment le poids du drone sera aussi variable selon les choix des conceptions. Commençons par analyser les caractéristiques physiques et techniques du drone.
 
-## Dimensions et poids du châssis à vide :
-
-![Front](./local/images/front.png)
-
 ## Caractéristiques techniques :
 
 Ce drone est équipé d'un contrôleur de vol BeagleBone Blue. BeagleBone Blue est un mini ordinateur monocarte Open Source sous Linux spécialement conçu pour des applications embarquées. Il est équipé des systèmes de communication sans fil standard Wi-Fi et Bluetooth 4.0 ainsi que des connecteurs dédiés pour d'autres interfaces telles que UART, SPI, radio DSM2, et GPS. Il embarque également une unité de mesure inertielle indispensable pour l'orientation d'un drone comportant un accéléromètre, un gyroscope et une boussole. Voici la liste des composants électroniques embarqués dans le drone :
@@ -34,6 +30,9 @@ sont ensuite transmis à la station de contrôle au sol.
 
 <img src="./local/images/controler.png" alt="controler" width="1000"/>
 
+## Dimensions et poids du châssis à vide :
+
+![Front](./local/images/front.png)
 
 ## Stratégie de tests :
 
