@@ -1,5 +1,4 @@
 ptitle: Drone Tester
-description: Conception d'un drone quadcopter imprimés en 3D avec tests d'optimisation du temps en vol.
-show_downloads: true
+description: Test de configurations de drone pour optimisation du temps de vol.
+show_downloads: false
 google_analytics:
-theme: jekyll-theme-cayman
