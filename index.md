@@ -10,7 +10,7 @@ Pour cela nous allons faire varier principalement les trois critères suivants :
 
 ## Dimensions et poids du châssis à vide :
 
-Le drone est composé de plusieurs modules, chacun de ces modules est imprimé en 3D en matériau PLA. Le chassis une fois assemblé le drone pèse ...g
+Le drone est composé de plusieurs modules, chacun de ces modules est imprimé en 3D avec du matériau PLA. Une fois assemblé le drone pèse ...g
 
 ![Front](./local/images/front.png)
 
@@ -80,7 +80,7 @@ Liste des éléments utilisés pour chaque scénario :
     *  Mot 1 : 2212 920 KV (22 mm diametre stator, 12 mm longeur stator, 920 rpm/V)
     *  Mot 2 : 2212 980 KV
     *  Mot 3 : 2212 2200 KV
-
+ 
 *   Hélices :
     * Hel 1 : 9443 (9.4 inches longeur, 4.3 inches pitch)
     * Hel 2 : 1038
