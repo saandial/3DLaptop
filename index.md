@@ -50,6 +50,7 @@ Comme spécifié en introduction, la réalisation de ces tests en vol est défin
 pas descendre en dessous de 30% de décharge.
 ```
 <img src="./local/images/lipo.mp4" alt="lipo" width="100"/>
+!video[ title ]( ./local/images/lipo.mp4 ){ size=10 }
 
 ## Description des scénarios :
 
