@@ -50,7 +50,11 @@ Comme spécifié en introduction, la réalisation de ces tests en vol est défin
 pas descendre en dessous de 30% de décharge.
 ```
 <img src="./local/images/lipo.mp4" alt="lipo" width="100"/>
-!video[ title ]( "./local/images/lipo.mp4" ){ size=10 }
+<div class="myvideo">
+   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="./local/images/lipo.mp4" type="video/mp4" />
+   </video>
+</div>
 
 ## Description des scénarios :
 
