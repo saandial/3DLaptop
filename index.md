@@ -49,6 +49,7 @@ Comme spécifié en introduction, la réalisation de ces tests en vol est défin
 (*) Afin de préserver la longévité d'une batterie LiPo il est vivement recommendé de ne 
 pas descendre en dessous de 30% de décharge.
 ```
+<img src="./local/images/lipo.pnmp4" alt="controler" width="100"/>
 
 ## Description des scénarios :
 
