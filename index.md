@@ -55,6 +55,8 @@ pas descendre en dessous de 30% de décharge.
    </video>
 </div>
 
+<img src="./local/images/lipo.png" alt="controler" width="1000"/>
+
 ## Description des scénarios :
 
 Liste des éléments utilisés pour chaque scénario :
