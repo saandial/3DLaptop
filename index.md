@@ -55,6 +55,12 @@ pas descendre en dessous de 30% de décharge.
    </video>
 </div>
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./local/images/lipo.mp4" type="video/mp4">
+  </video>
+</figure>
+
 ## Description des scénarios :
 
 Liste des éléments utilisés pour chaque scénario :
