@@ -57,6 +57,15 @@ pas descendre en dessous de 30% de décharge.
 
 <img src="./local/images/lipo.png" alt="controler" width="1000"/>
 
+```
+Niveau de décharge de la batterie 3S :
+Tension de la cellule 1 : 3.886 V
+Tension de la cellule 2 : 3.915 V
+Tension de la cellule 3 : 3.800 V
+Tension totale de la LiPo : 11.601 V
+
+```
+
 ## Description des scénarios :
 
 Liste des éléments utilisés pour chaque scénario :
