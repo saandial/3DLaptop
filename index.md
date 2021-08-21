@@ -63,7 +63,6 @@ Tension de la cellule 1 : 3.886 V
 Tension de la cellule 2 : 3.915 V
 Tension de la cellule 3 : 3.800 V
 Tension totale de la LiPo : 11.601 V
-
 ```
 
 ## Description des scénarios :
