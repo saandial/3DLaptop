@@ -10,7 +10,7 @@ Pour cela nous allons faire varier principalement les trois critères suivants :
 
 ## Dimensions et poids du châssis à vide :
 
-Le drone est composé de plusieurs modules, chacun de ces modules est imprimé en 3D en matériau PLA. Le chassis une fois assemblé le drone pèse 550g
+Le drone est composé de plusieurs modules, chacun de ces modules est imprimé en 3D en matériau PLA. Le chassis une fois assemblé le drone pèse ...g
 
 ![Front](./local/images/front.png)
 
