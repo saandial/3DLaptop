@@ -2,13 +2,15 @@
 layout: default
 ---
 
-L'autonomie en vol d'un drone peut varier en fonction de plusieurs critères comme son poids, sa taille, les hélices, la batterie, les rmoteurs, la consommation des composants électroniques etc. 
+L'autonomie en vol d'un drone peut varier en fonction de plusieurs critères comme son poids, sa taille, les hélices, la batterie, les moteurs, la consommation des composants électroniques etc. 
 
-Bref autant de critères qui selon la conception peuvent influer sur l'autonomie de la batterie et par conséquence sur le temps de vol. Je réalise ici quelques tests de configurations d'un drone de type quadcopter entièrement imprimé en 3D afin de calculer le temps de vol. 
+Bref autant de critères qui selon la conception du drone peuvent influer sur l'autonomie de la batterie et par conséquence sur le temps de vol. Je réalise ici quelques tests de configurations d'un drone de type quadcopter afin d'optimiser le temps de vol. 
 
-Pour cela nous allons faire varier principalement les trois critères suivants : la batterie, les moteurs et les hélices, bien évidemment le poids du drone sera aussi variable selon les choix des conceptions. Commençons par analyser les caractéristiques physiques et techniques du drone.
+Pour cela nous allons faire varier principalement les trois critères suivants : la batterie, les moteurs et les hélices. Commençons par analyser les caractéristiques techniques du drone.
 
 ## Dimensions et poids du châssis à vide :
+
+Le drone est composé de plusieurs modules, chacun de ces modules est imprimé en 3D en matériau PLA. Le chassis une fois assemblé le drone pèse 550g
 
 ![Front](./local/images/front.png)
 
